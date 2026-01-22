@@ -1,5 +1,3 @@
-rm(list = ls())
-
 library(readxl)
 library(dplyr)
 library(tidyr)
@@ -424,3 +422,4 @@ p8 <- ggplot(reg_df, aes(x = year, y = resid)) +
   )
 
 p8
+
